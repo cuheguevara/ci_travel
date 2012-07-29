@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------------------------------------------------------------------------------------*/
+/* login */
+#login_box {
+	height:20em;
+	background-color: #f3f3f3;
+	border: 1px solid #c7c6c6;
+}
+#reminder_box {
+	height:20em;
+	background-color: #FFFFFF;
+	border: 1px solid #c7c6c6;
+}
+#main_box {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width:70em;
+	height:32em;
+	margin-top: -17em; /*set to a negative number 1/2 of your height*/
+	margin-left: -35em; /*set to a negative number 1/2 of your width*/
+	border: 1px solid #c7c6c6;
+	background-color: #FFFFFF;
+}
+#footer {
+	margin-top: 43em;
+}
+h1{
+	background-color:#3d6798;
+	border-bottom:1px solid #c7c6c6;
+	font-size:120%;
+	font-weight:bolder;
+	color:#c7c6c6;	
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align:center;
+}
+
+#login_form{
+	padding:10px;
+}
+
+#login_form p label{
+	display:block;
+	float:left;
+	width:80px;
+}
+
+#login_form p{
+	margin-bottom:10px;
+}
+
+#submit{
+	padding:0 5px;
+	border:#666 solid 1px;
+	margin-left:1px;
+}
+
+#main_box .field_error, #main_box #message{
+	font-size:12px;
+	color:#F00;
+}
+
+#main_box #form_error_message{
+	margin-bottom:20px;
+}
+
+#main_box .field_error{
+	clear:both;
+	margin-left:1px;
+}
+
+.form_field{
+	border:#666 solid 1px;
+}
+
+.form_field:focus{
+	background-color:#F9E9A9;
+}
+a.nonaktif{
+	font-size: 9pt;
+	color:#900;
+	font-weight:bold;
+	padding-left:10px;
+	text-decoration: none;
+}
+a.nonaktif:hover{
+	color:#3d6798;
+}
+*/
+table{
+	font-size:100%;
+}
+
+table th{
+	text-transform:uppercase;
+	font-weight:bold;
+	background:#3d6798;
+	text-align:center;
+	font-size:100%;
+}
+
+table td, table th {
+	text-align:left;
+	padding:4px 10px 4px 10px;
+	font-size:100%;
+}
+
+.zebra {
+	background:#F9E9A9;
+}

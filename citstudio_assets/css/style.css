@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =Layout
+------------------------------------------------------------------------------------------------*/
+#masthead, #main, #footer{
+	clear:both;
+	float:left;
+	margin:0 10%;
+	width:80%;
+}
+
+#navigation{
+	/*background-color:#fa6e03;*/
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+/* =Layout Masthead
+------------------------------------------------------------------------------------------------*/
+#masthead{
+	background:url(../images/logo.png) no-repeat;
+	height:90px;	
+}
+
+#masthead h1{
+	display:none;
+}
+
+/* =Layout Navigation
+------------------------------------------------------------------------------------------------*/
+#menu_tab{
+	background:#d5d5d5 url(../images/nav_bg.png) repeat-x bottom left;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:10px 10% 0 10%;
+	width:80%;
+}
+
+#menu_tab li{
+	float:left;
+}
+
+#menu_tab a{
+	background:#ded8bf url(../images/off_bg.png) repeat-x top left;
+	border:1px solid #9B8748;
+	border-bottom:none;
+	color:#333;
+	display:block;
+	float:left;	
+	margin:0 1px 0 0;
+	padding:4px 8px;	
+	text-decoration:none;
+}
+
+#menu_tab a:hover, 
+body#absen #tab_absen a,
+body#rekap #tab_rekap a,
+body#siswa #tab_siswa a,
+body#semester #tab_semester a,
+body#kelas #tab_kelas a{
+	background: #fff url(../images/on_bg.png) repeat-x top left;
+	border-color: #727377;
+	color: #333;
+	padding-bottom: 5px;		
+}
+
+/* =Layout Main
+------------------------------------------------------------------------------------------------*/
+#main{
+	padding:10px 0;
+}
+
+/* =Layout Footer
+------------------------------------------------------------------------------------------------*/
+#footer{
+	border-top:1px solid #fa6e03;
+	font-size:smaller;
+	font-weight:bold;
+	padding-top:5px;
+	text-align:right;	
+}
+
+/* =Table
+------------------------------------------------------------------------------------------------*/
+table{
+	font-size:90%;
+}
+
+table th{
+	text-transform:uppercase;
+	font-weight:bold;
+	background:#fa6e03;
+	text-align:center;
+}
+
+table td, table th {
+	text-align:left;
+	padding:4px 10px 4px 10px;
+}
+
+.zebra {
+	background:#F9E9A9;
+}
+
+/* =Form
+------------------------------------------------------------------------------------------------*/
+
+form{
+	padding:10px;
+}
+
+p label{
+	display:block;
+	float:left;
+	margin-right:10px;
+	text-align:right;
+	width:140px;
+}
+
+form p{
+	margin-bottom:10px;
+}
+
+#submit{
+	padding:0 4px;
+	border:#666 solid 1px;
+}
+#submit2{
+	padding:0 4px;
+	margin-left:150px;
+	border:#666 solid 1px;
+}
+
+.form_field{
+	border:#666 solid 1px;
+}
+
+.form_field:focus{
+	background-color:#F9E9A9;
+}
+
+p.message{
+	color:#900;
+	font-weight:bold;
+	margin-bottom:10px;
+	background-color:#6F6;
+	padding:5px;
+	border:1px solid #090;
+}
+
+.field_error{
+	clear:both;
+	color:#F00;
+	font-size:9px;
+}
+
+fieldset{
+	border:1px solid;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+
+/* =Link
+------------------------------------------------------------------------------------------------*/
+a.tambah,
+a.kontrak,
+a.money,
+a.update, 
+a.delete,
+a.next,
+a.excel,
+a.pdf,
+a.mail,
+a.aktif,
+a.nonaktif{
+	font-size: 9pt;
+	color:#900;
+	font-weight:bold;
+	padding-left:25px;
+	text-decoration: none;
+}
+
+a.tambah:hover,
+a.save:hover,
+a.kontrak:hover,
+a.money:hover,
+a.add:hover,
+a.update:hover,
+a.delete:hover,
+a.back:hover,
+a.next:hover,
+a.excel:hover,
+a.pdf:hover,
+a.mail:hover,
+a.aktif:hover
+a.nonaktif:hover{
+	color:#fa6e03;
+}
+
+a.add {
+	background:url(../images/add.png) left center no-repeat;
+	padding-top:40px;
+	background-position:center;
+	font-size: 9pt;
+	color:#900;
+	font-weight:bold;
+	text-decoration: none;
+}
+a.add:hover {
+	background:url(../images/add_f2.png) left center no-repeat;
+	padding-top:40px;
+	background-position:center;
+}
+a.update {
+	background:url(../images/edit2.png) left center no-repeat;
+}
+a.tambah {
+	background:url(../images/2.png) left center no-repeat;
+}
+a.kontrak {
+	background:url(../images/edit.png) left center no-repeat;
+}
+a.money {
+	background:url(../images/money2.png) left center no-repeat;
+}
+a.delete {
+	background:url(../images/delete2.png) left center no-repeat;
+}
+a.next {
+	background:url(../images/9.png) left center no-repeat;
+}
+a.back {
+	background:url(../images/back_f2.png) left center no-repeat;
+	padding-top:55px;
+	background-position:center;
+	font-size: 9pt;
+	color:#900;
+	font-weight:bold;
+	text-decoration: none;
+}
+a.save {
+	font-size: 9pt;
+	color:#900;
+	font-weight:bold;
+	text-decoration: none;
+}
+a.back:hover {
+	background:url(../images/back_f1.png) left center no-repeat;
+	padding-top:55px;
+	background-position:center;
+}
+a.excel {
+	background:url(../images/13.png) left center no-repeat;
+}
+a.pdf {
+	background:url(../images/14.png) left center no-repeat;
+}
+a.mail {
+	background:url(../images/nomail.png) left center no-repeat;
+}
+a.aktif {
+	background:url(../images/8.png) left center no-repeat;
+}
+a.nonaktif {
+	background:url(../images/1.png) left center no-repeat;
+}
+
+p#bottom_link{
+	margin-top:10px;
+}
+
+/* =Pagination
+------------------------------------------------------------------------------------------------*/
+#pagination{
+	margin-bottom:10px;
+	color:#900;
+}
+
+#pagination a{
+	text-decoration:none;
+}
+
+#pagination a:hover{
+	color:#900;
+	font-size:150%;
+	font-weight:bold;
+}
+
+p strong {
+	font-size:150%;
+	font-weight:bold;
+}
+
+/* =Misc
+------------------------------------------------------------------------------------------------*/
+h2{
+	font-size:1.5em;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+p.message{
+	color:#900;
+	font-weight:bold;
+	background-color:#6F6;
+	padding:5px;
+	border:1px solid #090;
+}
+p.message_error{
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color:#990000;
+	padding:5px;
+	border:1px solid #090;
+}
+#title {
+	font-size:20px; 
+	font-weight:bold; 
+	color:#fa6e03;	
+}
+#garis {
+border-bottom:1px solid #fa6e03;
+}
+
+sup {
+	color:#F00;
+	font-weight:bold;
+}
+
+.hidden{
+	display:none;
+}
+.welcome{
+	color:#000000;
+	font-weight:bold;
+	font-size:11px;
+}
+a.master_jabatan,
+a.master_jenis_lembur,
+a.master_status_pekerjaan,
+a.master_jenis_asuransi,
+a.master_setting_email,
+a.management_user{
+	font-size: 9pt;
+	color:#900;
+	font-weight:bold;
+	text-decoration: none;
+}
+a.master_jabatan:hover,
+a.master_jenis_lembur:hover,
+a.master_status_pekerjaan:hover,
+a.master_jenis_asuransi:hover,
+a.master_setting_email:hover,
+a.management_user:hover{
+	color:#fa6e03;
+}
+#judul {
+	font-size:14px; 
+	font-weight:bold; 
+	color:#fa6e03;	
+}

@@ -1,0 +1,158 @@
+/* 
+    Document   : all.setting
+    Created on : Nov 11, 2011, 1:04:08 PM
+    Author     : citstudio
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+#applicant_full_name{ text-transform :none;}
+
+#address{ text-transform :none;
+}
+
+#phone{
+	text-transform :none;
+}
+
+#email{
+	text-transform :none;
+}
+
+#handphone{
+	text-transform :none;
+}
+
+#universitas{
+	text-transform :none;
+}
+
+#jurusan{
+	text-transform :none;
+}
+
+#nama_perusahaan_1{
+	text-transform :none;
+}
+#masa_kerja_1{
+	text-transform :none;
+}#jabatan_terakhir_1{
+	text-transform :none;
+}
+
+#nama_perusahaan_2{
+	text-transform :none;
+}
+#masa_kerja_2{
+	text-transform :none;
+}#jabatan_terakhir_2{
+	text-transform :none;
+}
+
+#nama_perusahaan_3{
+	text-transform :none;
+}
+#masa_kerja_3{
+	text-transform :none;
+}#jabatan_terakhir_3{
+	text-transform :none;
+}
+
+#nama_perusahaan_4{
+	text-transform :none;
+}
+#masa_kerja_4{
+	text-transform :none;
+}#jabatan_terakhir_4{
+	text-transform :none;
+}
+root { 
+    display: block;
+}
+
+/* purpose for all module */
+.ui-autocomplete-loading { background: white url('images/ui-anim_basic_16x16.gif') right center no-repeat; }
+
+/* overide ui css */
+.ui-widget-header{ font-weight :normal; }
+
+/* toolbar button */
+#toolbar {
+    padding: 5px 4px;
+    width: '100%';
+}
+.password {
+    font-size : 12px;
+    border : 1px solid #cc9933;
+    width : 200px;
+    font-family : arial, sans-serif;
+}
+.pstrength-minchar {
+    font-size : 10px;
+}
+.input_field { margin:1px;color: #333; padding: 5px; border: 1px solid #ccc;  background: #fff; }
+.txtArea { width: 700px;
+	height: 100px;
+	padding: 5px;
+	color: #333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	background: #fff; }
+.submit_btn {
+	margin: 5px 0px;
+	padding: 5px 14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	border: 1px solid #CCC;
+	background: #fff;
+}
+.ui-button { margin-left: -1px; }
+.ui-button-icon-only .ui-button-text { padding: 0.35em; }
+.ui-autocomplete-input { margin: 0; padding: 0.48em 0 0.47em 0.45em; border-color:#ccc;}
+
+#edit {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#edit span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#lihatdetail {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#lihatdetail span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#addbuku {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#addbuku span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#new {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#new span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#save {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#save span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#print {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#print span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#delete {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#delete span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#search {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#search span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#update {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#update span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#export-excel {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#export-excel span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#export-pdf {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#export-pdf span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+ul#icons {margin: 0; padding: 0;}
+ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left; list-style: none;}
+ul#icons span.ui-icon {float: left; margin: 0 4px;}
+
+input{
+text-transform : capitalize;
+font-family: tahoma;
+}
